@@ -91,8 +91,9 @@ console.log(CemberinAlani(15, pi));
 */
 
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
+console.log(sayilar.length);
 
-let ucetambolunenler,
+let ucetambolunenler = [],
   enkucuk,
   enbuyuk,
   ucebolunenlerintoplami,
@@ -114,8 +115,11 @@ for (let i = 0; i < sayilar.length; i++){
 }
 
 // 3b çözümü:
-
-/* kodlar buraya */
+sayilar.forEach((sayi) => {
+  if (sayi % 3 === 0){
+    ucetambolunenler.push(sayi);
+  }
+});
 
 // 3c çözümü:
 
