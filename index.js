@@ -128,8 +128,7 @@ ucebolunenlerintoplami  = ucetambolunenler.reduce(((sum, num) => sum += num), 0)
 besyuzdenkucuksayilar = sayilar.filter(num => num < 500);
 
 // 3e çözümü
-
-/* kodlar buraya */
+siralisayilar = besyuzdenkucuksayilar.sort((a, b) => a-b);
 
 // 3f çözümü
 
